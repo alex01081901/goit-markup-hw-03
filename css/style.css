@@ -1,6 +1,7 @@
 /*general stales*/
 body {
   font-femily: "Roboto", sans-serif;
+  font-style: normal;
 }
 .list {
   list-style: none;
@@ -62,8 +63,16 @@ body {
 .header-nav-contact:hover {
   color: #2196f3;
 }
+.address-mails {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
 
-.header-tel-link {
+.address-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -81,11 +90,13 @@ body {
   line-height: 139%;
 }
 .main-about-line {
-  font-family: Roboto;
-  font-style: Medium;
+  font-family: "Roboto";
+  font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  line-height: 139%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .list-one {
   font-family: Roboto;
@@ -115,13 +126,22 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-address-title link  {
+.address {
   text-decoration: none;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+.address-mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }

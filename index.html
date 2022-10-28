@@ -1,107 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>webstudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="header-nav">
-            <a href="/" class="logo link">
-                <span class="header-first-part">Web</span>
-                <span class="header-last-part">Studio</span>
-            </a>
-            <ul class="list ">
-                <li class="header-nav-item"><a href="portfolio.html" class="header-nav-studio link">Студія</a></li>
-                <li class="header-nav-item"><a href="" class="header-nav-portfolio link">Портфоліо</a></li>
-                <li class="header-nav-item"><a href="" class="header-nav-contact link">Контакти</a></li>
-            </ul>
-        </nav>
+      <nav class="header-nav">
+        <a href="/" class="logo link">
+          <span class="header-first-part">Web</span>
+          <span class="header-last-part">Studio</span>
+        </a>
         <ul class="list">
-            <li class="header-tel-link link"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            <li class="header-mail-link link"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="header-nav-item">
+            <a href="./portfolio.html" class="header-nav-studio link">Студія</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="" class="header-nav-portfolio link">Портфоліо</a>
+          </li>
+          <li class="header-nav-item"><a href="" class="header-nav-contact link">Контакти</a></li>
         </ul>
+      </nav>
+      <ul class="list">
+        <li class="header-tel-link link">
+          <a class="address-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+        <li class="header-mail-link link">
+          <a class="address-mails" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+      </ul>
     </header>
     <main>
-        <div class="about">
-            <button type="button" class="main-about-all">Усі</button>
-            <button type="button" class="main-about-line">Веб-сайти</button>
-            <button type="button" class="main-about-line">Додатки</button>
-            <button type="button" class="main-about-line">Дизайн</button>
-            <button type="button" class="main-about-line">Маркетинг</button>
-        </div>
+      <section class="hero">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="hero-button">Замовити послугу</button>
+      </section>
+      <section class="about">
+        <h2 class="visually-hidden">Наші переваги</h2>
         <ul class="list">
-            <li>
-                <img src="./img/img1.jpg" alt="galery1">
-                <h2 class="list-one">Технокряк</h2>
-                <p class="list-two">Веб-сайт</p>
-            </li>
-            <li>
-                <img src="./img/img2.jpg" alt="galery2">
-                <h2 class="list-one">Постер New Orlean vs Golden Star</h2>
-                <p class="list-two">Дизайн</p>
-            </li>
-            <li>
-                <img src="./img/img3.jpg" alt="galery3">
-                <h2 class="list-one">Ресторан Seafood</h2>
-                <p class="list-two">Додаток</p>
-            </li>
-            <li>
-                <img src="./img/img4.jpg" alt="galery4">
-                <h2 class="list-one">Проєкт Prime</h2>
-                <p class="list-two">Маркетинг</p>
-            </li>
-            <li>
-                <img src="./img/img5.jpg" alt="galery5">
-                <h2 class="list-one">Проєкт Boxes</h2>
-                <p class="list-two">Додаток</p>
-            </li>
-            <li>
-                <img src="./img/img6.jpg" alt="galery6">
-                <h2 class="list-one">Inspiration has no Borders</h2>
-                <p class="list-two">Веб-сайт</p>
-            </li>
-            <li>
-                <img src="./img/img7.jpg" alt="galery7">
-                <h2 class="list-one">Видання Limited Edition</h2>
-                <p class="list-two">Дизайн</p>
-            </li>
-            <li>
-                <img src="./img/img8.jpg" alt="galery8">
-                <h2 class="list-one">Проєкт LAB</h2>
-                <p class="list-two">Маркетинг</p>
-            </li>
-            <li>
-                <img src="./img/img9.png" alt="galery9">
-                <h2 class="list-one">Growing Business</h2>
-                <p class="list-two">Додаток</p>
-            </li>
+          <li>
+            <h3 class="about-title list">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="about-title-after">
+              Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+            </p>
+          </li>
+          <li>
+            <h3 class="about-title list">ПЛАНУВАННЯ</h3>
+            <p class="about-title-after">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li>
+            <h3 class="about-title list">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="about-title-after">
+              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+            </p>
+          </li>
+          <li>
+            <h3 class="about-title list">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="about-title-after">
+              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+            </p>
+          </li>
         </ul>
+      </section>
+      <section class="work">
+        <h2 class="work-title">Чим ми займаємося</h2>
+        <ul class="list">
+          <li><img src="./img/img1.jpg" alt="galllery1" width="370" height="auto" /></li>
+          <li><img src="./img/img2.jpg" alt="galllery2" width="370" height="auto" /></li>
+          <li><img src="./img/img3.jpg" alt="galllery3" width="370" height="auto" /></li>
+        </ul>
+      </section>
+      <section class="our team">
+        <h2 class="komand-title">Наша команда</h2>
+        <ul class="list">
+          <li>
+            <img src="./img/img4.jpg" alt="Ігор Дем'яненко" width="270" height="260" />
+            <h3 class="komand-title-after">Ігор Дем'яненко</h3>
+            <p class="komand-after">Product Designer</p>
+          </li>
+          <li>
+            <img src="./img/img 5.jpg" alt="Ольга Рєпіна" width="270" height="260" />
+            <h3 class="komand-title-after">Ольга Рєпіна</h3>
+            <p class="komand-after">Frontend Developer</p>
+          </li>
+          <li>
+            <img src="./img/img 6.jpg" alt="Микола Тарасов" width="270" height="260" />
+            <h3 class="komand-title-after">Микола Тарасов</h3>
+            <p class="komand-after">Marketing</p>
+          </li>
+          <li>
+            <img src="./img/img7.jpg" alt="Михайло Єрмаков" width="270" height="260" />
+            <h3 class="komand-title-after">Михайло Єрмаков</h3>
+            <p class="komand-after">UI Designer</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="footer">
-        <a href="./index.html" class="logo link">
-            <span class="header-first-part">Web</span>
-            <span class="header-last-parts">Studio</span>
-        </a>
-        <address>
-            <ul class="link list">
-                <li class="footer-address-title link"><a href="https://goo.gl/maps/7ASM1sJS5dJ5GdoQ7" target="_blank"
-                        rel="noreferrer noopener">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li class="address-mail link list"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="address-tel link list"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+      <a href="./index.html" class="logo link">
+        <span class="header-first-part">Web</span>
+        <span class="header-last-parts">Studio</span>
+      </a>
+      <address>
+        <ul class="link list">
+          <li>
+            <a
+              class="address"
+              href="https://goo.gl/maps/7ASM1sJS5dJ5GdoQ7"
+              target="_blank"
+              rel="noreferrer noopener"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li class="address-mail link list">
+            <a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="address-tel link list">
+            <a class="address-mail" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </address>
     </footer>
-    </body>
-    
-    </html>
-</body>
+  </body>
 </html>
