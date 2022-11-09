@@ -19,8 +19,8 @@
   </head>
   <body>
     <header>
-      <div class="header-conteiner">
-        <nav class="header-nav main-nav">
+      <div class="conteiner header-conteiner">
+        <nav class="main-nav">
           <a href="/" class="logo link">
             <span class="header-first-part">Web</span>
             <span class="header-last-part">Studio</span>
@@ -34,22 +34,23 @@
             </li>
             <li class="header-nav-item"><a href="" class="header-nav-contact link">Контакти</a></li>
           </ul>
-
-          <ul class="list after-nav">
-            <li class="header-tel-link link">
-              <a class="address-tel" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-            <li class="header-mail-link link">
-              <a class="address-mails" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-          </ul>
         </nav>
+        <ul class="list after-nav">
+          <li class="header-tel-link link">
+            <a class="address-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+          <li class="header-mail-link link">
+            <a class="address-mails" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero-button">Замовити послугу</button>
+        <div class="conteiner">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero-button">Замовити послугу</button>
+        </div>
       </section>
       <section class="abouts">
         <div class="conteiner">
@@ -83,9 +84,10 @@
         </div>
       </section>
       <section class="work">
-        <h2 class="work-title">Чим ми займаємося</h2>
         <div class="conteiner">
-          <ul class="list conteiner">
+          <h2 class="work-title">Чим ми займаємося</h2>
+
+          <ul class="work list">
             <li class="work-item">
               <img src="./img/img1.jpg" alt="galllery1" width="370" height="auto" />
             </li>
@@ -102,7 +104,7 @@
         <h2 class="komand-title">Наша команда</h2>
         <div class="conteiner">
           <ul class="list our-team-conteiner">
-            <li>
+            <li class="li-style">
               <img src="./img/img4.jpg" alt="Ігор Дем'яненко" width="270" height="260" />
               <div class="our-conteiner">
                 <h3 class="komand-title-after">Ігор Дем'яненко</h3>
@@ -110,21 +112,21 @@
               </div>
             </li>
 
-            <li>
+            <li class="li-style">
               <img src="./img/img 5.jpg" alt="Ольга Рєпіна" width="270" height="260" />
               <div class="our-conteiner">
                 <h3 class="komand-title-after">Ольга Рєпіна</h3>
                 <p class="komand-after">Frontend Developer</p>
               </div>
             </li>
-            <li>
+            <li class="li-style">
               <img src="./img/img 6.jpg" alt="Микола Тарасов" width="270" height="260" />
               <div class="our-conteiner">
                 <h3 class="komand-title-after">Микола Тарасов</h3>
                 <p class="komand-after">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="li-style">
               <img src="./img/img7.jpg" alt="Михайло Єрмаков" width="270" height="260" />
               <div class="our-conteiner">
                 <h3 class="komand-title-after">Михайло Єрмаков</h3>
@@ -138,7 +140,6 @@
     <footer class="footer">
       <div class="conteoner">
         <a href="./index.html" class="logo link">
-          <span class="header-first-part">Web</span>
           <span class="header-last-parts">Studio</span>
         </a>
         <address>
@@ -152,10 +153,10 @@
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li class="address-mail link list">
+            <li class="address-mail address-item">
               <a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="address-tel link list">
+            <li class="address-tel address-item">
               <a class="address-mail" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
