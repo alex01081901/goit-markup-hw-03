@@ -229,7 +229,7 @@ section {
 }
 /*work n*/
 .work {
-  padding: 0;
+  padding-top: 0;
 }
 .work .list {
   display: flex;
@@ -272,9 +272,7 @@ section {
 }
 .our-team-conteiner {
   display: flex;
-  width: 1170px;
-  margin-right: 30px;
-  justify-content: space-between;
+  gap: 30px;
 }
 .our-conteiner {
   text-align: center;
@@ -300,8 +298,9 @@ section {
 /*footer*/
 .footer {
   background: #2f303a;
+  padding: 60px 0;
 }
-.conteiner {
+.header-conteiner {
   display: flex;
   gap: 50px;
   align-items: center;
@@ -325,7 +324,7 @@ section {
   color: #ffffff;
 }
 address {
-  margin: 20px;
+  margin-top: 20px;
 }
 .address {
   text-decoration: none;
@@ -424,14 +423,6 @@ header {
   color: #757575;
 }
 
-.address-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #757575;
-}
 .about-conteiner {
   display: flex;
   margin-bottom: 50px;
@@ -459,6 +450,7 @@ header {
 }
 .item-text {
   padding: 20px 24px;
+  border: 1px solid #ececec;
 }
 .list-one {
   margin-bottom: 4px;
@@ -476,7 +468,6 @@ header {
   color: #212121;
   cursor: pointer;
   background-color: #f5f4fa;
-  margin-right: 8px;
   justify-content: center;
 }
 .main-about-line:hover,
@@ -486,11 +477,13 @@ header {
 }
 
 .progect-item {
+  width: 370px;
   flex-basis: ((100% - 30 * 2) / 3);
 }
 .list-one {
-  font-size: 16px;
-  line-height: calc(30 / 16);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
   align-items: center;
 }
 .list-two {
@@ -502,9 +495,7 @@ header {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.footer {
-  background: #2f303a;
-}
+
 .header-last-parts {
   font-family: 'Raleway';
   font-style: normal;
@@ -523,14 +514,4 @@ header {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-.address-mail {
-  text-decoration: none;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
